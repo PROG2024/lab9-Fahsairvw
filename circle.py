@@ -3,7 +3,7 @@ import math
 
 
 class Circle:
-    """ Doctest
+    """ Doctest of the circle class
     >>> c1 = Circle(3)
     >>> c2 = Circle(4)
     >>> new_c = c1.add_area(c2)
