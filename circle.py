@@ -13,6 +13,7 @@ class Circle:
     Traceback (most recent call last):
     ...
     ValueError: radius must be non-negative
+
     """
 
     def __init__(self, radius):
