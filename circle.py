@@ -3,8 +3,7 @@ import math
 
 
 class Circle:
-    """ Doctest of the circle class
-
+    """ Doctest of circle test
     >>> c1 = Circle(3)
     >>> c2 = Circle(4)
     >>> new_c = c1.add_area(c2)
@@ -14,7 +13,6 @@ class Circle:
     Traceback (most recent call last):
     ...
     ValueError: radius must be non-negative
-
     """
 
     def __init__(self, radius):
