@@ -7,3 +7,16 @@
 
    You can use pytest or unittest.
 """
+import unittest
+from counter import Counter
+
+
+class CounterTest(unittest.TestCase):
+    def test_Sigleton(self):
+        n1 = Counter()
+        n2 = Counter()
+        n1.increment()
+        self.assertEqual(n1, n2)
+
+
+
